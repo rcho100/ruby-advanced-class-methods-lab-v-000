@@ -56,12 +56,13 @@ class Song
 
   def self.create_from_filename(filename)
     my_song = self.new_from_filename(filename)
+    binding.pry
+
     my_song.save
 
   end
 
   def self.destroy_all
-    binding.pry
     self.all.clear
 
   end
