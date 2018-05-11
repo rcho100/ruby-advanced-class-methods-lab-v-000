@@ -57,7 +57,8 @@ binding.pry
   end
 
   def self.create_from_filename
-
+    my_song = self.new_from_filename(filename)
+    my_song.save
   end
 
 end
