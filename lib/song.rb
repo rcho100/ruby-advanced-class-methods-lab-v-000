@@ -27,7 +27,6 @@ class Song
 
     song = self.new
     song.name = name
-    #binding.pry
     song.save
     self.all
     song
